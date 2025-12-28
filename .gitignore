@@ -1,0 +1,25 @@
+# Data (do not commit)
+data/**
+!data/README.md
+
+# Large files
+*.csv
+*.parquet
+*.feather
+*.zip
+*.gz
+
+# Secrets
+kaggle.json
+.env
+.env.*
+
+# Notebooks
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
